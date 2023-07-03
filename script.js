@@ -197,7 +197,7 @@ function createText() {
       (text) =>
         new Promise((resolve, reject) => {
           loader.load(
-            "/static/fonts/helvetiker_regular.typeface.json",
+            "https://threejs.org/examples/fonts/helvetiker_regular.typeface.json",
             (font) => {
               const textGeometry = new TextGeometry(text, {
                 font: font,
