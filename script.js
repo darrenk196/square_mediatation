@@ -201,7 +201,7 @@ function createText() {
             (font) => {
               const textGeometry = new TextGeometry(text, {
                 font: font,
-                size: 15, // This is the font size. Increase it as needed.
+                size: 7, // This is the font size. Increase it as needed.
                 height: 3,
                 curveSegments: 40, // This is the number of curve segments. Increase it for smoother text.
                 bevelEnabled: true,
